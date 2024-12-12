@@ -70,12 +70,12 @@ library("RefManageR")
 ## Write bibliography information
 bib <- c(
     derfinderPlot = citation("derfinderPlot")[1],
-    BiocStyle = citation("BiocStyle"),
+    BiocStyle = citation("BiocStyle")[1],
     knitr = citation("knitr")[3],
     RefManageR = citation("RefManageR")[1],
     rmarkdown = citation("rmarkdown")[1],
     derfinder = citation("derfinder")[1],
-    ggbio = citation("ggbio"),
+    ggbio = citation("ggbio")[1],
     brainspan = RefManageR::BibEntry(
         bibtype = "Unpublished",
         key = "brainspan",
@@ -83,9 +83,9 @@ bib <- c(
         author = "BrainSpan", year = 2011, url = "http://www.brainspan.org/"
     ),
     R = citation(),
-    IRanges = citation("IRanges"),
-    sessioninfo = citation("sessioninfo"),
-    testthat = citation("testthat"),
+    IRanges = citation("IRanges")[1],
+    sessioninfo = citation("sessioninfo")[1],
+    testthat = citation("testthat")[1],
     GenomeInfoDb = RefManageR::BibEntry(
         bibtype = "manual",
         key = "GenomeInfoDb",
@@ -93,15 +93,15 @@ bib <- c(
         title = "GenomeInfoDb: Utilities for manipulating chromosome and other 'seqname' identifiers",
         year = 2017, doi = "10.18129/B9.bioc.GenomeInfoDb"
     ),
-    GenomicRanges = citation("GenomicRanges"),
-    ggplot2 = citation("ggplot2"),
-    plyr = citation("plyr"),
-    RColorBrewer = citation("RColorBrewer"),
-    reshape2 = citation("reshape2"),
-    scales = citation("scales"),
-    biovizBase = citation("biovizBase"),
+    GenomicRanges = citation("GenomicRanges")[1],
+    ggplot2 = citation("ggplot2")[1],
+    plyr = citation("plyr")[1],
+    RColorBrewer = citation("RColorBrewer")[1],
+    reshape2 = citation("reshape2")[1],
+    scales = citation("scales")[1],
+    biovizBase = citation("biovizBase")[1],
     bumphunter = citation("bumphunter")[1],
-    TxDb.Hsapiens.UCSC.hg19.knownGene = citation("TxDb.Hsapiens.UCSC.hg19.knownGene"),
+    TxDb.Hsapiens.UCSC.hg19.knownGene = citation("TxDb.Hsapiens.UCSC.hg19.knownGene")[1],
     bumphunterPaper = RefManageR::BibEntry(
         bibtype = "article",
         key = "bumphunterPaper",
@@ -109,7 +109,7 @@ bib <- c(
         author = "Jaffe, Andrew E and Murakami, Peter and Lee, Hwajin and Leek, Jeffrey T and Fallin, M Daniele and Feinberg, Andrew P and Irizarry, Rafael A",
         year = 2012, journal = "International Journal of Epidemiology"
     ),
-    derfinderData = citation("derfinderData")
+    derfinderData = citation("derfinderData")[1]
 )
 ```
 
